@@ -1,0 +1,36 @@
+We had a bad situation recently. Look over here.
+
+We had a sinister former employee who went around the company, requesting donations for their kid's soccer team.
+
+And look at this person's eyebrows. He's sinister, look at that.
+
+People felt intimidated and here is a list of our people from Gail Archer down to Martina Zornan
+
+And here is a list of donations. And our objectives.
+
+We need three separate query results.One, our people who did not donate
+and then people who donated less than $200 and then people who donated $200 or more.
+
+Now, let's look at the data. Notice, Stu Glover donated a total of $210.
+
+If Stu Glover is one of our people, then he needs to be on the greater than or equal to $200 result.
+
+Let's see if Stu Glover is one of ours. Yes, Stu Glover is one of ours.
+
+Then let's look at a couple other things. Jeff Benford and Dorian Canter are on the top of this list.
+
+Are they our people? We do have Jeff Benford.
+
+We don't have a Dorian Canter. thats greate proves our formula works
+
+Create a parameter 
+Group By Donations made total Domation column
+Slpit Donors Name to first and LastName
+Right Anti Join to FInd the people who did not donate 
+
+Donated Less Than 200$
+used inner join to find Donors less than 200$
+
+
+Donated OVER Than 200$
+used inner join to find Donors OVER than 200$
