@@ -1,0 +1,79 @@
+OBJECTIVES 
+• Match each order with the right price from the 
+pricing grid. 
+• Get rid of the order types; i.e., PHONE, ONLINE, 
+WEBSITE. 
+• Get a total dollar amount for each order. The 
+items are not needed in the result. 
+• Sort the result by dollar amount, Iargest to 
+smallest. 
+
+
+ we've got some order data about pies.
+
+Column B are the order numbers,
+
+and it's broken up into sections.
+
+We've got orders that came in through the phone,
+
+online, through the website, that's everything.
+
+And then, on the right side, we have a pricing grid.
+
+So we see that a whole sweet potato costs $26.
+
+So, for the order that's in column three,
+
+that's seven whole sweet potato pies,
+
+that should be $26 times seven.
+
+And that's what we want to do.
+
+That's our first objective.
+
+Get the prices matched up with the right products.
+
+But notice there's a challenge.
+
+Sweet Potato__W means whole pie, and then we get
+
+to Strawberry Rhubarb__S, that means slice.
+
+That's $6 for a strawberry rhubarb slice.
+
+And then we get down to row 10, Mixed Berry__M, 3,
+
+that means three mini pies.
+
+So, what do we want to do with this data?
+
+Here is our list of objectives.
+
+Match each order with the right price.
+
+We don't need those headers, PHONE, ONLINE, and WEBSITE.
+
+We aren't making the distinction with those.
+
+Get a total dollar amount for each order,
+
+and we do not need the items.
+
+And what does that mean?
+
+Notice this order.
+
+That's eight items in one order.
+
+We want the final price.
+
+We do not care that it's got Key lime pies and slices,
+
+We just want the order number and the dollar amount,
+
+We do a Left outter Join
+what do we want to match it is pie and flavor_size.1 and Type with flavor__size.2
+CReated a Custom Column For QTY * Price to get Total Price
+Grouped Data By Orders 
