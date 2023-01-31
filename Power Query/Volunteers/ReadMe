@@ -1,0 +1,22 @@
+We've got a January through March file
+and then an April through June file.
+And they both have the same column headers
+in the same place.
+This is all volunteer data
+showing volunteerism in three categories,
+culinary arts, tech and music.
+This shows that Abbey Rowe in April through June
+volunteered 15 hours in the area of culinary arts.
+
+
+What do we want to do with it?
+Our objectives: 
+1 get the data into one file.But use Power Query to do it,
+
+2 Then get a total for each person and the category that they volunteered in.
+
+3 Then we only want to keep the people who volunteered in music.
+
+4 We don't want the people who worked in tech or in culinary arts.
+
+5 Then sort that result by the last name, then by the first name
